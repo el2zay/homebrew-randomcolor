@@ -1,4 +1,4 @@
-class Randomcolor < Formula
+class randomcolor < Formula
     desc "Display a random color in a terminal and convert HEX<->RGB. Only French is available at this time - CLI"
     homepage "https://github.com/el2zay/random-color-cli"
     url "https://github.com/el2zay/random-color-cli/releases/download/v0.1.1/randomcolor.tar.gz"
@@ -7,6 +7,6 @@ class Randomcolor < Formula
     version "0.1.1"
   
     def install
-      bin.install "main"
+      bin.install "randomcolor"
     end
   end
